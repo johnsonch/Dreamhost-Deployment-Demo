@@ -1,7 +1,6 @@
-set :user, 'CHANGE_ME_TO_YOUR_DREAMHOST_USER'
-set :application, "CHANGE_ME_TO_YOUR_SITE" 
-set :repository, "CHANGE_ME_TO_YOUR_REPOLOCATION" 
-set :password, "CHANGE_ME_TO_YOUR_DREAMHOST_PASSWORD_IF_YOU_DONT_HAVE_SSH_KEYS"
+set :user, 'johnsonch'
+set :application, "deployment-demo.johnsonch.com" 
+set :repository, "git://github.com/johnsonch/Dreamhost-Deployment-Demo.git" 
 set :scm, :git
 
 # =============================================================================
@@ -65,10 +64,10 @@ namespace :deploy do
 
   db_params = {
     "adapter"=>"mysql",
-    "database"=>"CHANGE_ME_TO_YOUR_DATABASE",
-    "username"=>"CHANGE_ME_TO_YOUR_USERNAME",
-    "password"=>"CHANGE_ME_TO_YOUR_PASSWORD",
-    "host"=>"mysql.CHANGE_ME_TO_YOUR_SITE.com",
+    "database"=>"deployment_demo",
+    "username"=>"deploymentdemo",
+    "password"=>"Password",
+    "host"=>"mysql.johnsonch.com",
     "socket"=>""
   }
 

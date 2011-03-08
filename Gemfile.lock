@@ -84,5 +84,6 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  i18n
   rails (= 3.0.3)
   sqlite3
