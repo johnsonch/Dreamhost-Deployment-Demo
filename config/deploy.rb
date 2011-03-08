@@ -1,4 +1,4 @@
-set :user, 'johnsonch'
+set :user, 'YOUR_DH_USERNAME'
 set :application, "deployment-demo.johnsonch.com" 
 set :repository, "git://github.com/johnsonch/Dreamhost-Deployment-Demo.git" 
 set :scm, :git
@@ -64,10 +64,10 @@ namespace :deploy do
 
   db_params = {
     "adapter"=>"mysql",
-    "database"=>"deployment_demo",
-    "username"=>"deploymentdemo",
-    "password"=>"Password",
-    "host"=>"mysql.johnsonch.com",
+    "database"=>"YOUR_DATABASE",
+    "username"=>"YOUR_MYSQL_USERNAME",
+    "password"=>"YOUR_PASSWORD",
+    "host"=>"mysql.YOUR_HOST.com",
     "socket"=>""
   }
 
