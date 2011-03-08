@@ -39,7 +39,7 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     highline (1.6.1)
-    i18n (0.5.0)
+    i18n (0.4.2)
     mail (2.2.15)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -84,6 +84,6 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
-  i18n
+  i18n (~> 0.4.2)
   rails (= 3.0.3)
   sqlite3
